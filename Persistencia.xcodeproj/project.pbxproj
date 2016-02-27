@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F555E3EB1C81CED4001DEDCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555E3EA1C81CED4001DEDCA /* AppDelegate.swift */; };
+		F555E3ED1C81CED4001DEDCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555E3EC1C81CED4001DEDCA /* ViewController.swift */; };
+		F555E3F01C81CED4001DEDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F555E3EE1C81CED4001DEDCA /* Main.storyboard */; };
+		F555E3F21C81CED4001DEDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F555E3F11C81CED4001DEDCA /* Assets.xcassets */; };
+		F555E3F51C81CED4001DEDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F555E3F31C81CED4001DEDCA /* LaunchScreen.storyboard */; };
+		F555E3FD1C81D25E001DEDCA /* CellTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555E3FC1C81D25E001DEDCA /* CellTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F555E3E71C81CED4001DEDCA /* Persistencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persistencia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F555E3EA1C81CED4001DEDCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F555E3EC1C81CED4001DEDCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F555E3EF1C81CED4001DEDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F555E3F11C81CED4001DEDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F555E3F41C81CED4001DEDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F555E3F61C81CED4001DEDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F555E3FC1C81D25E001DEDCA /* CellTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F555E3E41C81CED4001DEDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F555E3DE1C81CED4001DEDCA = {
+			isa = PBXGroup;
+			children = (
+				F555E3E91C81CED4001DEDCA /* Persistencia */,
+				F555E3E81C81CED4001DEDCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F555E3E81C81CED4001DEDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F555E3E71C81CED4001DEDCA /* Persistencia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F555E3E91C81CED4001DEDCA /* Persistencia */ = {
+			isa = PBXGroup;
+			children = (
+				F555E3EA1C81CED4001DEDCA /* AppDelegate.swift */,
+				F555E3EC1C81CED4001DEDCA /* ViewController.swift */,
+				F555E3EE1C81CED4001DEDCA /* Main.storyboard */,
+				F555E3FC1C81D25E001DEDCA /* CellTableView.swift */,
+				F555E3F11C81CED4001DEDCA /* Assets.xcassets */,
+				F555E3F31C81CED4001DEDCA /* LaunchScreen.storyboard */,
+				F555E3F61C81CED4001DEDCA /* Info.plist */,
+			);
+			path = Persistencia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F555E3E61C81CED4001DEDCA /* Persistencia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F555E3F91C81CED4001DEDCA /* Build configuration list for PBXNativeTarget "Persistencia" */;
+			buildPhases = (
+				F555E3E31C81CED4001DEDCA /* Sources */,
+				F555E3E41C81CED4001DEDCA /* Frameworks */,
+				F555E3E51C81CED4001DEDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Persistencia;
+			productName = Persistencia;
+			productReference = F555E3E71C81CED4001DEDCA /* Persistencia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F555E3DF1C81CED4001DEDCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nylon;
+				TargetAttributes = {
+					F555E3E61C81CED4001DEDCA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F555E3E21C81CED4001DEDCA /* Build configuration list for PBXProject "Persistencia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F555E3DE1C81CED4001DEDCA;
+			productRefGroup = F555E3E81C81CED4001DEDCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F555E3E61C81CED4001DEDCA /* Persistencia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F555E3E51C81CED4001DEDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F555E3F51C81CED4001DEDCA /* LaunchScreen.storyboard in Resources */,
+				F555E3F21C81CED4001DEDCA /* Assets.xcassets in Resources */,
+				F555E3F01C81CED4001DEDCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F555E3E31C81CED4001DEDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F555E3FD1C81D25E001DEDCA /* CellTableView.swift in Sources */,
+				F555E3ED1C81CED4001DEDCA /* ViewController.swift in Sources */,
+				F555E3EB1C81CED4001DEDCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F555E3EE1C81CED4001DEDCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F555E3EF1C81CED4001DEDCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F555E3F31C81CED4001DEDCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F555E3F41C81CED4001DEDCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F555E3F71C81CED4001DEDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F555E3F81C81CED4001DEDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F555E3FA1C81CED4001DEDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Persistencia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nylondev.Persistencia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F555E3FB1C81CED4001DEDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Persistencia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nylondev.Persistencia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F555E3E21C81CED4001DEDCA /* Build configuration list for PBXProject "Persistencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F555E3F71C81CED4001DEDCA /* Debug */,
+				F555E3F81C81CED4001DEDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F555E3F91C81CED4001DEDCA /* Build configuration list for PBXNativeTarget "Persistencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F555E3FA1C81CED4001DEDCA /* Debug */,
+				F555E3FB1C81CED4001DEDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F555E3DF1C81CED4001DEDCA /* Project object */;
+}
